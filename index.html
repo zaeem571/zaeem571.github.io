@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Zaeem Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
+<body>
 
-  <body>
-    <!-- NAVBAR -->
-    <nav>
-      <h2 class="logo">MyPortfolio</h2>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">ZAEEM</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
-      <div class="text">
-        <h1>Hello, I'm <span>Your Name</span></h1>
-        <p>A developer passionate about building modern websites & apps.</p>
-      </div>
-      <img src="assets/profile.jpg" class="hero-img" />
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Zaeem</span></h1>
+            <p>Frontend Developer & UI Designer</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+        <div class="hero-img">
+            <img src="assets/profile.jpg" alt="Profile">
+        </div>
     </section>
 
-    <!-- ABOUT SECTION -->
+    <!-- ABOUT -->
     <section id="about" class="about">
-      <h2>About Me</h2>
-      <p>
-        I am a developer with skills in web development, mobile apps, and UI
-        design. I enjoy building clean, fast, and simple digital products.
-      </p>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer who loves creating modern,
+            responsive websites. I focus on clean UI, smooth animations,
+            and great user experience.
+        </p>
     </section>
 
     <!-- PROJECTS -->
     <section id="projects" class="projects">
-      <h2>Projects</h2>
+        <h2>Projects</h2>
 
-      <div class="project-card">
-        <img src="assets/project1.png" />
-        <h3>Project Title</h3>
-        <p>Short description of your project goes here.</p>
-        <a href="#" target="_blank">View Project</a>
-      </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="assets/project1.png" alt="Project 1">
+                <h3>Project One</h3>
+                <p>A clean UI homepage design.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project2.png" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>Responsive website layout.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project3.png" alt="Project 3">
+                <h3>Project Three</h3>
+                <p>Modern portfolio concept.</p>
+            </div>
+        </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="contact">
-      <h2>Contact Me</h2>
-      <p>Email: <strong>your-email@example.com</strong></p>
+        <h2>Contact</h2>
+        <p>Email: <strong>your-email@gmail.com</strong></p>
     </section>
 
     <footer>
-      <p>© 2025 Your Name. All rights reserved.</p>
+        <p>© 2025 Zaeem — All Rights Reserved.</p>
     </footer>
-  </body>
+
+    <script src="script.js"></script>
+</body>
 </html>
